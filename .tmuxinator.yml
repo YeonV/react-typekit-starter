@@ -1,0 +1,13 @@
+# /Users/truyvv/.config/tmuxinator/type.yml
+
+name: type
+root: ./
+tmux_options: -f ./.tmux.mac.conf
+windows:
+  - reputation-manager:
+      layout: tiled
+      panes:
+        - yarn start
+        - yarn test
+        - yarn storybook
+        - yarn run
