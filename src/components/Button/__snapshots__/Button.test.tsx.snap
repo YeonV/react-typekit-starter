@@ -5,7 +5,7 @@ exports[`renders the component 1`] = `
   className="BasicButton"
   style={
     Object {
-      "backgroundColor": "#FFF000",
+      "backgroundColor": "#F0F000",
     }
   }
 >
