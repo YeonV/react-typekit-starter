@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+<div
+  className="BasicButton"
+  style={
+    Object {
+      "backgroundColor": "#FFF000",
+    }
+  }
+>
+  this will be a button
+</div>
+`;
