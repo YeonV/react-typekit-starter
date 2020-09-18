@@ -1,13 +1,13 @@
 import React from 'react'
 import './Button.css';
 
-interface Props {
+export interface ButtonProps {
     color: string
 }
 
-const Button = (props: Props) => {
+const Button: React.FC<ButtonProps> = ({color}) => {
     return (
-        <div className={'BasicButton'} style={{backgroundColor: props.color}}>
+        <div className={'BasicButton'} style={{backgroundColor: color}}>
             this will be a button
         </div>
     )
